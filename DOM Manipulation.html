@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+    </div>
+    <section id="container">
+        <ul>
+            <li class="first">one</li>
+            <li class="second">two</li>
+            <li class="third">three</li>
+        </ul>
+        <ol>
+            <li class="first">one</li>
+            <li class="second">two</li>
+            <li class="third">three</li>
+        </ol>
+    </section>
+    <div class="footer">
+    </div>
+</body>
+</html>
+
+<!-- Above this line is the original file text given to me by Springboard -->
+
+<!-- Exercises Asked To Complete
+    
+1. Select the section with an id of container without using querySelector.
+const id = document.getElementById('container');
+
+2. Select the section with an id of container using querySelector.
+const queryID = document.querySelector('#container');
+
+3. Select all of the list items with a class of “second”.
+const second = document.querySelectorAll('.second');
+
+4. Select a list item with a class of third, but only the list item inside of the ol tag.
+const ol = document.querySelector('ol');
+third = ol.getElementsByClassName('third');
+
+5. Give the section with an id of container the text “Hello!”.
+const container = document.querySelector('#container');
+const hello = document.createTextNode('Hello!');
+container.appendChild(hello);
+* made an error originally that replaced the whole section with the text 'hello' I reopened the file and created these variables again to perform the exercise
+
+6. Add the class main to the div with a class of footer.
+const footer = document.querySelector('.footer')
+footer.classList += ' main';
+
+7. Remove the class main on the div with a class of footer.
+footer.classList.remove('main');
+
+8. Create a new li element.
+let li = document.createElement('li');
+
+9. Give the li the text “four”.
+li.innerText = 'four';
+
+10. Append the li to the ul element.
+const ul = document.querySelector('ul');
+ul.append(li);
+
+11. Loop over all of the lis inside the ol tag and give them a background color of “green”.
+let allLi = document.querySelectorAll('li');
+for (let li of allLi){
+    li.style.backgroundColor = 'green'
+}
+12. Remove the div with a class of footer 
+const footer = document.querySelector('.footer');
+footer.remove();
+-->  
+
+
+
+
+<!-- Below this line is the modified html file after completing all the exercises -->
+
+<!-- <html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+    </div>
+    <section id="container">
+        <ul>
+            <li class="first" style="background-color: green;">one</li>
+            <li class="second" style="background-color: green;">two</li>
+            <li class="third" style="background-color: green;">three</li>
+        <li style="background-color: green;">four</li></ul>
+        <ol>
+            <li class="first" style="background-color: green;">one</li>
+            <li class="second" style="background-color: green;">two</li>
+            <li class="third" style="background-color: green;">three</li>
+        </ol>
+    Hello!</section>
+    
+</body>
+</html> -->
